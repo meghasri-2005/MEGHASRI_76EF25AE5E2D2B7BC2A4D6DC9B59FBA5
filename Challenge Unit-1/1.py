@@ -4,5 +4,5 @@ def fact_rec(n):
   else:
     return n * fact_rec(n-1)
     number = int(input("Enter the value"))
-    fact_rec(number)
-    print("the factorial of {} is ()".format(number,))
+    res = fact_rec(number)
+    print("the factorial of {} is ()".format(number,res))
